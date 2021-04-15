@@ -4,7 +4,7 @@ import time
 #import Rpi.GPIO as GPIO
 from Adafruit_IO import Client
 ADAFRUIT_IO_USERNAME = "adityatakiar"
-ADAFRUIT_IO_KEY = "aio_PQqh242GSNb0FUa3wjf2uF63ct04"
+ADAFRUIT_IO_KEY = "key"
 ######################################################
 aio = Client(ADAFRUIT_IO_USERNAME,ADAFRUIT_IO_KEY)
 xlight = aio.feeds('light123')
